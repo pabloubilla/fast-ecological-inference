@@ -1,0 +1,24 @@
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{lrr}
+\toprule
+& \multicolumn{2}{c}{Ballot boxes} \\
+\cmidrule{2-3}
+p-value Range & \multicolumn{1}{c}{Number} & \multicolumn{1}{c}{Percentage} \\
+\midrule
+$\leq 10^{0}$ & 46,606 & 100.00 \\
+$\leq 10^{-1}$ & 8,445 & 18.12 \\
+$\leq 10^{-2}$ & 1,884 & 4.04 \\
+$\leq 10^{-3}$ & 541 & 1.16 \\
+$\leq 10^{-4}$ & 215 & 0.46 \\
+$\leq 10^{-5}$ & 124 & 0.27 \\
+$\leq 10^{-6}$ & 72 & 0.15 \\
+$\leq 10^{-7}$ & 41 & 0.09 \\
+\midrule
+\end{tabular}
+\caption{p-value count in the 2021-GCE.}
+\label{tab:p-val-pais}
+\end{table}
